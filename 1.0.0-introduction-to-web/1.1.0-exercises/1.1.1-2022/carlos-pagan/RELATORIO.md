@@ -1,4 +1,5 @@
 ## Exercicios:
+
 <br>
 0. O que são APIs.  Para que servem ?<br>
     As APIs são como interfaces que servem para fazer a comunicação entre um cliente e um servidor, possibilitando o transporte de dados entre eles. Sem duvidas diversos aplicativos e sites que usamos utlizam API, entretanto isso não fica explícito.
@@ -56,18 +57,40 @@
     401 - Não Autorizado - Código que indica que você não tem autorização de credenciais válidas; <br>
     403 - Acesso Proibido - Este código indica que o usuário tentou acessar algo que não tem a permissão devida; <br>
     404 - Recurso não encontrado - Indica que o servidor não encontrou o recurso solicitado; <br>
-    405 -  
+    405 - O recurso solicitado não foi encontrado - Código que indica que o servidor host suporta o método recebido, entretanto o recurso de destino não suporta; <br>
+    500 - Houve um erro no servidor - Esse código indica que um pedido pôde não ser completado, sendo um erro interno; <br>
+    501 - Não implementado - Esse código indica que o servidor não suportou a funcionalidade necessária para atender a solicitação; <br>
+    502 - Bad Gateway - Código de erro que basicamente indica que um servidor recebeu uma resposta inválida de outro. 
+<br>
+<br>
+5. O que é Node.js ? <br>
+    Node.js basicamente é um ambiente onde o JavaScript pode ser executado independentemente de um browser, ou seja, pode ser utlizado para criar aplicações JavaScript em umamáquina. 
+<br>
+<br>
+5.1 Instale-o em sua máquina, versão LTS v14.17.3  | Listar os comandos que utilizou.<br>
+    Comandos:
 
-5. O que é Node.js ?  
-5.1 Instale-o em sua máquina, versão LTS v14.17.3  | Listar os comandos que utilizou.
-5.2 Para checar se você possui o node:   
+<br>
+<br>
+5.2 Para checar se você possui o node:
+
 ```
 $ node -v
 v14.17.3
 ```
-6. O que são gerenciadores de pacotes (software)?  
-6.1 Instale os principais gerenciadores de pacote para a linguagem JavaScript em sua máquina. | Listar os comandos que utilizou.  
-6.2 Para checar se você possui os gerenciadores:  
+
+<br>
+<br>
+6. O que são gerenciadores de pacotes (software)?  <br>
+    Gerenciadores de pacotes são como ferramentas que dão suporte ao desenvolvedor na hora de fazer downloads de pacotes que serão inseridos nos seus projetos.
+<br>
+<br>
+6.1 Instale os principais gerenciadores de pacote para a linguagem JavaScript em sua máquina. | Listar os comandos que utilizou.  <br>
+    Comandos:
+<br>
+<br>
+6.2 Para checar se você possui os gerenciadores:
+
 ```
 $ npm -v
 7.24.1
@@ -75,44 +98,100 @@ $ npm -v
 $ yarn -v
 1.22.11
 ```
-7. Java e JavaScript são a mesma linguagem ? Descreva as diferenças entre essas linguagens e pesquise do porque do nome ser parecido.
-  
-8. Você possui o gerenciador de pacotes da linguagem Python em sua máquina?  
-8.1  Caso não tenha, instale o principal gerenciador de pacote para a linguagem python. | Listar os comandos que utilizou.  
-8.2 Para checar se você possui o gerenciador de pacote do python (V maisusculo):  
+
+7. Java e JavaScript são a mesma linguagem ? Descreva as diferenças entre essas linguagens e pesquise do porque do nome ser parecido. <br>
+   Não, Java e uma linguagem que tem que ser compilada antes de ser interpretada pela máquina, enquanto JavaScript e uma linguagem interpretada, nesse caso os próprios navegadores já possuem esse "interpretador". <br>
+   Em questão do nome, isso aconteceu por conta de um acordo entre as empresas Netscape e a Sun. <br>
+
+8. Você possui o gerenciador de pacotes da linguagem Python em sua máquina? <br>
+   Não.
+   <br>
+   <br>
+   8.1 Caso não tenha, instale o principal gerenciador de pacote para a linguagem python. | Listar os comandos que utilizou. <br>
+   Comandos:
+   <br>
+   <br>
+   8.2 Para checar se você possui o gerenciador de pacote do python (V maisusculo):
+
 ```
 $ pip -V
 pip 21.3.1
 ```
-9. O que é linguagem interpretada ? O que é linguagem compilada ? E hibidria ?  
-9.1 Escreva exemplos de linguagens compiladas, interpretadas e hibidrias.  
-9.2 Qual o nome do compilador da linguagem C ?  
-9.3 Qual o nome do compilador da linguagem Java ?
-9.4 Qual o nome do interpretador do bytecode da linguagem java ?  
-9.5 Qual o nome do interpretador da linguagem JavaScript ?
-9.6 Qual o nome interpretador da linguagem Python?
-9.7 Python é ou não compilado ? Pesquise e descreva o que encontrar.
 
-10. O que é POO  em programação?  
-10.1 Java é totalmente POO. O que é uma classe e o que é um objeto ?  
-10.2 O que é a JVM, JRE e a JDK ? Descreva.  
-10.3 Quais os principais gerenciadores de pacote da linguagem java ?
-10.4 Instale o Open JDK 11 em sua máquina. | Listar os comandos que utilizou.  
+9. O que é linguagem interpretada ? O que é linguagem compilada ? E hibidria ? <br>
+   Interpretada: Nesse tipo de linguagem a execução do código ocorre junto com sua análise, analisando linha por linha. ;<br>
+   Compilada: Esse tipo de linguagem necessita que o código passe por um compilador, ou seja, todo o código escrito é convertido para a linguagem da máquina;<br>
+   Híbrida: Nesse caso o código e interpretado e compilado, entretanto só é compilado o trecho do código que estará em uso na execução, juntando a melhor parte da compilada e da interpretada.
+   <br>
+   <br>
+   9.1 Escreva exemplos de linguagens compiladas, interpretadas e hibidrias. <br>
+   Compiladas: Assembly, C, Pascal;<br>
+   Interpretadas: PHP, Ruby, JS;<br>
+   Híbridas: Java.
+   <br>
+   <br>
+   9.2 Qual o nome do compilador da linguagem C ? <br>
+   GNU Compiler Collection, ou GCC. Basicamente ele e um conjunto de compiladores.
+   <br>
+   <br>
+   9.3 Qual o nome do compilador da linguagem Java ? <br>
+   Javac, ele compila o código-fonte em um código de nivel intermediário, chamado código de bytes.
+   <br>
+   <br>
+   9.4 Qual o nome do interpretador do bytecode da linguagem java ? <br>
+   Java Virtual Machine.
+   <br>
+   <br>
+   9.5 Qual o nome do interpretador da linguagem JavaScript ? <br>
+   Motor JavaScript, ele está presente nos navegadores.
+   <br>
+   <br>
+   9.6 Qual o nome interpretador da linguagem Python? <br>
+   Ao instalar o python na máquina, seu interpretador já está instalado também, ele permite ler os arquivos .py e processaros códigos e instruções.
+   <br>
+   <br>
+   9.7 Python é ou não compilado ? Pesquise e descreva o que encontrar. <br>
+   Python pode ser comparado com Java, ele e interpretado, mas também passa por um processo de compilação.
+   <br>
+   <br>
+10. O que é POO em programação? <br>
+    POO, ou programação orientada a objetos é uma alternativa as características da programação estruturada, ela basicamente aproxima a manipulação das estruturas de um programa a manipulação de coisas do mundo real, ou seja, pode representar qualquer coisa concreta.
+    <br>
+    <br>
+    10.1 Java é totalmente POO. O que é uma classe e o que é um objeto ? <br>
+    Uma classe se refere a um "modelo" que possui suas características e comportamentos que irão definir o conjunto de objetos que pertencem a determinada classe.
+    <br>
+    <br>
+    10.2 O que é a JVM, JRE e a JDK ? Descreva. <br>
+    JVM: É a maquina virtual Java, ela é responsável por executar o bytecode.;<br>
+    JRE: Esse ambiente fornece todas as bibliotecas padrões da linguagem Java para que o JVM e o JDK possam executar e compilar o código;<br>
+    JDK: É o kit de desenvolvimento Java, ele é responsável por compilar todo o código-fonte, ou seja, ele converte o código .java em bytecode.
+    <br>
+    <br>
+    10.3 Quais os principais gerenciadores de pacote da linguagem java ?<br>
+
+<br>
+<br>
+10.4 Instale o Open JDK 11 em sua máquina. | Listar os comandos que utilizou. <br>
+    Comandos:
+<br>
+<br>
 
 ```
 $ java --version
 java 11.0.12 2021-07-20 LTS
-```     
+```
 
-11. O que é uma IDE, o que é um editor de texto ?    
-11.1 Vs Code é uma IDE ou um editor de Texto ?  
-11.2  Instale o Vs Code em sua máquina.  
-11.3 IntelliJ é uma IDE ou editor de texto ?  
-11.4 Instale o IntelliJ em sua máquina
+11. O que é uma IDE, o que é um editor de texto ?  
+    11.1 Vs Code é uma IDE ou um editor de Texto ?  
+    11.2 Instale o Vs Code em sua máquina.  
+    11.3 IntelliJ é uma IDE ou editor de texto ?  
+    11.4 Instale o IntelliJ em sua máquina
 
-12. O que é docker ?    
-12.1 Quais suas vantagens ?  
-12.1 Instale o Docker em sua máquina. | Listar os comandos que utilizou.  
+12. O que é docker ?  
+    12.1 Quais suas vantagens ?  
+    12.1 Instale o Docker em sua máquina. | Listar os comandos que utilizou.
 
-* Estudaremos containers Docker, a linguagem Java entre outras com calma futuramente, por enquanto é somente importante se familiarizar com os conceitos apresentados nesse exercicio e com os processos de instalação e configuração do ambiente de desenvolvimento. 
+- Estudaremos containers Docker, a linguagem Java entre outras com calma futuramente, por enquanto é somente importante se familiarizar com os conceitos apresentados nesse exercicio e com os processos de instalação e configuração do ambiente de desenvolvimento.
+
 ---
