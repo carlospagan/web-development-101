@@ -64,11 +64,12 @@
 <br>
 <br>
 5. O que é Node.js ? <br>
-    Node.js basicamente é um ambiente onde o JavaScript pode ser executado independentemente de um browser, ou seja, pode ser utlizado para criar aplicações JavaScript em umamáquina. 
+    Node.js basicamente é um ambiente onde o JavaScript pode ser executado independentemente de um browser, ou seja, pode ser utlizado para criar aplicações JavaScript em uma máquina. 
 <br>
 <br>
 5.1 Instale-o em sua máquina, versão LTS v14.17.3  | Listar os comandos que utilizou.<br>
     Comandos:
+    
 
 <br>
 <br>
@@ -87,6 +88,9 @@ v14.17.3
 <br>
 6.1 Instale os principais gerenciadores de pacote para a linguagem JavaScript em sua máquina. | Listar os comandos que utilizou.  <br>
     Comandos:
+    npm - npm install -g npm@7.24.1
+    yarn - npm install --global yarn --> yarn set version 1.22.11
+            
 <br>
 <br>
 6.2 Para checar se você possui os gerenciadores:
@@ -127,7 +131,7 @@ pip 21.3.1
    9.1 Escreva exemplos de linguagens compiladas, interpretadas e hibidrias. <br>
    Compiladas: Assembly, C, Pascal;<br>
    Interpretadas: PHP, Ruby, JS;<br>
-   Híbridas: Java.
+   Híbridas: Java, Python e Swift.
    <br>
    <br>
    9.2 Qual o nome do compilador da linguagem C ? <br>
@@ -169,7 +173,7 @@ pip 21.3.1
     <br>
     <br>
     10.3 Quais os principais gerenciadores de pacote da linguagem java ?<br>
-
+    Maven e Apache Ivy e GRADLE.
 <br>
 <br>
 10.4 Instale o Open JDK 11 em sua máquina. | Listar os comandos que utilizou. <br>
@@ -182,15 +186,32 @@ $ java --version
 java 11.0.12 2021-07-20 LTS
 ```
 
-11. O que é uma IDE, o que é um editor de texto ?  
-    11.1 Vs Code é uma IDE ou um editor de Texto ?  
+11. O que é uma IDE, o que é um editor de texto ? <br>
+    O editor de textos serve para editar textos que nao tem nenhuma especificidade, não tendo nenhuma ligação com códigos, porém codigos podem ser escritos em um editor de texto, já uma IDE e como um ambiente que conta não apenas com a função de editar um código, mas também conta com funcionalidades de assistencia com projetos, testes, opções de depuração, e até mesmo com uma portabilidade para o código.
+    11.1 Vs Code é uma IDE ou um editor de Texto ?  <br>
+        Apesar do VS Code ter suporte para várias extensões que dão muitas funcionalidades adicionais, ele continua sendo um editor de texto.
+    <br>
+    <br>
     11.2 Instale o Vs Code em sua máquina.  
-    11.3 IntelliJ é uma IDE ou editor de texto ?  
+    11.3 IntelliJ é uma IDE ou editor de texto ?  <br>
+        IntelliJ é uma IDE.
+    <br>
+    <br>
     11.4 Instale o IntelliJ em sua máquina
 
-12. O que é docker ?  
-    12.1 Quais suas vantagens ?  
-    12.1 Instale o Docker em sua máquina. | Listar os comandos que utilizou.
+12. O que é docker ? <br>  
+    Docker é uma forma de visualização em que as aplicações são vistas em "containers", isso para faciclitar o desenvolvimento das aplicações e sua execução e aplicações em ambientes isolados. 
+    <br>
+    <br>
+    12.1 Quais suas vantagens ? <br>
+    Usando o docker, o gerenciamento da infraestrutura da aplicação é facilitada, fazendo com que o processo de criação, manutenção e modificação do serviço seja mais rápido.
+    <br>
+    <br>
+    12.1 Instale o Docker em sua máquina. | Listar os comandos que utilizou. <br>
+    Comandos: sudo apt install docker.io <br>
+    docker -v
+<br>
+<br>
 
 - Estudaremos containers Docker, a linguagem Java entre outras com calma futuramente, por enquanto é somente importante se familiarizar com os conceitos apresentados nesse exercicio e com os processos de instalação e configuração do ambiente de desenvolvimento.
 
